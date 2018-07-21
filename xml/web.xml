@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5">
+	<servlet>
+		<servlet-name>helloXml</servlet-name>
+		<servlet-class>com.xml.demo01.HelloXml</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>helloXml</servlet-name>
+		<url-parrten>/hello</url-parrten>
+	</servlet-mapping>
+</web-app>
